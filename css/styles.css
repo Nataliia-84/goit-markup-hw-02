@@ -1,0 +1,201 @@
+/* основні кольори */
+:root{
+    --primary-color: #757575;
+    --text-color: #212121;
+    --accent-color-blue: #2196F3;
+    --accent-color-white: #FFFFFF;
+    --second-color-f: rgba(255, 255, 255, 0.6);
+   --color-bgd-one:#2F303A;
+    --color-bgd-second:#F5F4FA;
+
+}
+body{ 
+    color: var(--primary-color);
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
+
+}
+/* логотип */
+.logo{
+    color: var(--accent-color-blue);
+
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+.logotitle{
+    color: var(--text-color);
+
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+/* навігація */
+.list{
+    list-style: none;
+    
+}
+.link{
+    color: var(--text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.link:hover,
+.link:focus{
+    color: var(--accent-color-blue);
+}
+.current{
+    color: var(--accent-color-blue);
+}
+/* реєстрація */
+.site-registr.list .mail,
+.site-registr.list .phone{
+    color: var(--primary-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.site-registr.list .mail:hover,
+.site-registr.list .mail:focus,
+.site-registr.list .phone:hover,
+.site-registr.list .phone:focus{
+    color: var(--accent-color-blue);
+}
+/* герой */
+
+.title{
+    color: var(--accent-color-white);
+    background-color: var(--color-bgd-one);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.button{
+    color:var(--accent-color-white);
+    background-color: var(--accent-color-blue);
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+/* переваги */
+.benefits-title{
+    color: var(--text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.text-benefits{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+/* робота */
+.work-title{
+    color: var(--text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+/* каманда */
+.comand-title{
+    color: var(--text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+.comand-name{
+    color: var(--text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+.text-comand{
+    
+    font-size: 16px;
+    line-height: 1.18;
+}
+/* футер */
+.footer{
+    background-color:var(--color-bgd-one);
+}
+.logo.disc{
+    color: var(--accent-color-white);
+
+}
+.adress{
+    color: var(--accent-color-white);
+    
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    
+}
+.mail-footer,
+.phone-footer{
+    color: var(--second-color-f);
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+}
+.mail-footer:hover,
+.mail-footer:focus,
+.phone-footer:hover,
+.phone-footer:focus{
+    color: var(--accent-color-blue);
+}
+/* стилі для портфоліо */
+
+.button.list{
+    color: var(--text-color);
+    background-color: var(--color-bgd-second);
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+.button.list:hover,
+.button.list:focus{
+    color: var(--accent-color-white);
+    background-color: var(--accent-color-blue);
+}
+
+/* список блоків */
+.section.blok .title-list{
+    color: var(--text-color);
+
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.section.blok .text-blok{
+    font-size: 16px;
+    line-height: 1.88;
+}
+
